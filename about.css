@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@font-face {
+	font-family: jackinput;
+	src: url(fonts/jackinput.ttf);
+}
+@font-face {
+	font-family: igor_font;
+	src: url(fonts/IGOR-BoldItalic.ttf);
+}
+
+header {
+	color: #1C1C1C;
+	margin: 0px;
+	min-width: 100%;
+}
+
+
+#nav-container {
+	font-size: 1.8vw;
+	display: flex;
+	gap: 2vw;
+	justify-content: flex-start;
+	align-items: flex-start;
+	list-style: none;
+	padding-left: 1vw;
+	margin: 0px;
+}
+
+hgroup {
+	font-family: jackinput;	
+	font-size: 2vw;
+	min-width: 100%;
+}
+
+li > a {
+	text-decoration: none;
+	color: #1C1C1C;
+	padding: 1vw;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-decoration: none;
+}
+
+
+li {
+	padding: 1vw;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-decoration: none;
+}
+
+#nav-3{
+	background-color: #1C1C1C;
+	color: #B4B8AB;
+}
+
+li > a:hover {
+	background-color: #1C1C1C;
+	color: #B4B8AB;
+}
+
+#header {
+	background-color: #f6b6c7;
+	background-image: url("images/header_img.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	padding-right: 0px;
+	min-width: 100%;
+}
+
+#title_head {
+	font-family: igor_font;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+#text {
+	margin-left: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+
+html {
+	font-family: Montserrat;
+}
+
+body {
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	min-width: 100%;
+	flex-direction: column;
+	background-color: #1C1C1C;
+	margin: 0px;
+	color: #B4B8AB;
+}
+
+#footer {
+	background-color: #f6b6c7;
+	color: #1C1C1C;
+	margin: 0px;
+	margin-top: auto;
+	min-width: 100%;
+}
+
+#footer_p {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left: 2vw;
+	font-size: 1vw;
+}
+
+#body {
+	display: flex;
+	align-items: center;
+	margin-left: 1vw;
+}
+
+#text {
+	margin-left: 2vw;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 1.5vw;
+}
+
+#cover {
+   width: 40vw;
+}
