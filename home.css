@@ -191,6 +191,14 @@ p {
 	padding: 2%;
 }
 
+
+a > #start:hover {
+	background-color: #1c1c1c;
+	color: #B4B8AB;
+	border-style: solid;
+	border-color: #f6b6c7;
+}
+
 a {
 	text-decoration: none;
 }
@@ -214,4 +222,18 @@ a {
 #or {
 	margin: 2%;
 	font-size: 2.3vw;
+}
+
+#footer_p{
+	padding-right: 1vw;
+	border-style: none solid none none;
+	border-color: #1c1c1c;
+}
+#contacts {
+	padding-left: 1vw;
+	font-size: 1vw;
+}
+footer {
+	display: flex;
+	padding-right: 2vw;
 }

@@ -133,3 +133,17 @@ body {
 #cover {
    width: 40vw;
 }
+
+#footer_p{
+	padding-right: 1vw;
+	border-style: none solid none none;ù
+	border-color: #1c1c1c;
+}
+#contacts {
+	padding-left: 1vw;
+	font-size: 1vw;
+}
+footer {
+	display: flex;
+	padding-right: 2vw;
+}
