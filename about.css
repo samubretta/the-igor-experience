@@ -48,7 +48,9 @@ li {
 	border-top-right-radius: 10px;
 	text-decoration: none;
 }
-
+a {
+	text-decoration: none;
+}
 #nav-3{
 	background-color: #1C1C1C;
 	color: #B4B8AB;
@@ -146,4 +148,11 @@ body {
 footer {
 	display: flex;
 	padding-right: 2vw;
+}
+
+.deactivated {
+	color: #B4B8AB;
+	background-color: #1c1c1c;
+	font-size: 2.5vw;
+	text-align: center;
 }

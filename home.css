@@ -49,9 +49,8 @@ li {
 	text-decoration: none;
 }
 
-#nav-1{
-	background-color: #1C1C1C;
-	color: #B4B8AB;
+#nav_1 {
+	border-radius: 10px 10px 0px 0px;
 }
 
 li > a:hover {
@@ -145,6 +144,8 @@ body {
 	width: 45vw;	
 	margin-bottom: 5%;
 	border-radius: 0px 20px 20px 0px;
+	min-height: 91,2%;
+	max-height: 91,2%;
 }
 
 #grid_3 {
@@ -158,7 +159,9 @@ body {
 #grid_4	 {
 	grid-area: grid_4;
 	width: 45vw;	
-	margin-bottom: 2,5%;	
+	margin-bottom: 2,5%;
+	min-height: 91,2%;
+	max-height: 91,2%;	
 }
 
 .desc_banner {
@@ -236,4 +239,26 @@ a {
 footer {
 	display: flex;
 	padding-right: 2vw;
+}
+
+.deactivated {
+	background-color: #1C1C1C;
+	color: #B4B8AB;
+	border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+	margin-left: 1vw;
+}
+
+#graph {
+	width: 40%;
+}
+
+#wireframe {
+	width: 70%;
+}
+
+#explain {
+	margin-left: 2vw;
 }
